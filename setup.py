@@ -7,9 +7,9 @@ with open("requirements.txt") as f:
 setup(
     name="llm_osint",
     version="0.0.1",
-    description="",
-    url="https://github.com/sshh12/llm_osint",
-    author="Shrivu Shankar",
+    description="Fork of original by Shrivu Shankar",
+    url="https://github.com/rkenefeck/llm_osint",
+    author="Rob Kenefeck",
     license="MIT",
     packages=find_packages(),
     include_package_data=True,

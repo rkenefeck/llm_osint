@@ -1,5 +1,5 @@
 """
-$ python examples\person_lookup.py "Jeff Bezos"
+$ python person_lookup.py "Jeff Bezos"
 """
 import re
 from llm_osint.tools.search import get_search_tool

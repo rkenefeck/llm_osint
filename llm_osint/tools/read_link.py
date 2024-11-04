@@ -1,6 +1,6 @@
 from typing import Optional
 
-from langchain.agents import Tool
+from langchain_community.agents import Tool
 
 from llm_osint.link_scraping import scrape_text, chunk_and_strip_html
 from llm_osint.llm_map_reduce import map_reduce_texts
