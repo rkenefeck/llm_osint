@@ -1,6 +1,6 @@
 from typing import List, Callable, Optional
 
-from langchain_community.agents.agent import AgentExecutor
+from langchain.agents.agent import AgentExecutor
 from llm_osint import knowledge_agent_constants, llm
 
 
