@@ -1,8 +1,8 @@
 from typing import List, Optional
 
 from langchain.agents import Tool
-from langchain_community.memory.chat_memory import BaseChatMemory
-from langchain_community.memory import ConversationBufferMemory
+from langchain.memory.chat_memory import BaseChatMemory
+from langchain.memory import ConversationBufferMemory
 from langchain.agents.agent import AgentExecutor
 from langchain.agents import initialize_agent
 from langchain.agents import AgentType
